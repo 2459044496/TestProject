@@ -1,5 +1,8 @@
 package testcollection;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +10,7 @@ import java.util.List;
  * @author CUI
  */
 public class TestList {
+
     public static void main(String[] args) {
         List list = new ArrayList(3);
         list.add(1);
@@ -17,6 +21,8 @@ public class TestList {
         System.out.println(list.hashCode());
         System.out.println(list.get(0));
         System.out.println(list.get(1));
+        TestAnnotation testAnnotation = new TestAnnotation();
+        testAnnotation.sayLog();
 
     }
 
