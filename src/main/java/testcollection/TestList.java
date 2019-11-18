@@ -1,8 +1,5 @@
 package testcollection;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +14,6 @@ public class TestList {
         list.add(2);
         list.hashCode();
         System.out.println();
-        //idea默认的快捷键是sout
         System.out.println(list.hashCode());
         System.out.println(list.get(0));
         System.out.println(list.get(1));
