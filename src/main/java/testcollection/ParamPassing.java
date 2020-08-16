@@ -11,6 +11,7 @@ public class ParamPassing {
     private static StringBuilder stringBuilderStatic = new StringBuilder("old stringBuilder");
 
     public static void main(String[] args) {
+        System.out.println("Hello World!!!");
         method(intStatic);
         method(stringStatic);
         method(stringBuilderStatic,stringBuilderStatic);
